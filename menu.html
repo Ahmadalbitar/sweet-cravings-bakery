@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - Sweet Cravings Bakery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Our Menu</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="product-grid">
+    <div class="product">
+      <img src="images/cupcake.jpg" alt="Cupcake" />
+      <h3>Chocolate Cupcake</h3>
+      <p>$3.00</p>
+      <button onclick="addToCart('Chocolate Cupcake', 3)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/cookie.jpg" alt="Cookie" />
+      <h3>Oatmeal Cookie</h3>
+      <p>$2.00</p>
+      <button onclick="addToCart('Oatmeal Cookie', 2)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/cake.jpg" alt="Cake" />
+      <h3>Strawberry Cake</h3>
+      <p>$20.00</p>
+      <button onclick="addToCart('Strawberry Cake', 20)">Add to Cart</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sweet Cravings Bakery</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
